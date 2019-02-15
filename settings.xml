@@ -2,8 +2,8 @@
   <servers>
     <server>
       <id>nexus-releases</id>
-      <username>admin</username>
-      <password>admin123</password>
+      <username>${env.NEXUSUSER}</username>
+      <password>${env.NEXUSPASSWORD}</password>
     </server>
   </servers>
 </settings>
